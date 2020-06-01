@@ -1,0 +1,10 @@
+# ADMINISTRACION DE DATOS STRs
+
+cd Desktop
+
+##Crear directorio
+mkdir STRs
+
+## Copiar bases de datos 
+
+## Unificar bases de datos

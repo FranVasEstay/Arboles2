@@ -1,0 +1,10 @@
+#ADMINISTRACION DE DATOS APELLIDOS
+
+cd Desktop
+
+#creacion de directorio 
+mkdir Surnames
+
+#USO DE BASE DE DATOS COMMONERS 
+
+#SELECCION DE DATOS ÚTILES
