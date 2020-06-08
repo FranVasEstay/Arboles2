@@ -1,4 +1,3 @@
-
 #LEEME
 Proyecto de creacion de arboles para STRs y apellidos
 
@@ -8,7 +7,6 @@ Lenguajes: Git bash y R
 
 - **1.SAdministración de datos** Administracion de base de datos de STRs. Lenguaje R
 La base de datos final es la base de datos unificada entre strs antes y después del 2018.
-
 
 - **2.AAdministración de datos** Administracion de base de datos commoners. Lenguaje R
 
