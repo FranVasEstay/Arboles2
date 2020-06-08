@@ -1,0 +1,6 @@
+### Run Scripts pipeline Surname
+
+# Correr administación de datos
+#!/usr/local/bin/Rscript
+./adminSur
+

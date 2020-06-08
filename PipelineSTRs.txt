@@ -1,0 +1,7 @@
+### Run Scripts pipeline STRs
+
+# Correr administración de datos 
+bash adminSTRs
+
+# Correr 
+
