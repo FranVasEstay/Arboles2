@@ -234,8 +234,6 @@ STR_alelos_slash[1] <- NULL
 library(ade4)
 library(adegenet)
 library(ape)
-library(phangorn)
-library(polysat)
 
 STR_genind <- df2genind(
   STR_alelos_slash,
