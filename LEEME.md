@@ -2,7 +2,7 @@
 
 Proyecto de creacion de arboles para STRs y apellidos
 
-Lenguajes: Git bash y R
+Lenguajes: R
 
 ## Carpetas y Archivos 
 
