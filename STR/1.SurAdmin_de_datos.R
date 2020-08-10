@@ -187,36 +187,3 @@ mi.final$FGA = trunc(mi.final$FGA)
 
 rm(primera, segunda, union, X, x1, x2, x3, x4)
 
-
-######################Convertir data frame a formatos para realizar análisis########################
-
-# generar un archivo xls para modificar formato de alelos 1 y 2
-
-library("writexl")
-write_xlsx(mi.final,"C:/Users/AM/Documents/GitHub/Arboles2/mi_final.xlsx")
-
-# archivo "STR_alelo_slash_alelo.csv" (generado en Excel) contiene dos alelos en cada marcador, en formato "alelo1 / alelo2"
-
-STR_alelos_slash <- read.csv("STR_alelo_slash_alelo.csv", sep = ",", header = TRUE)
-library(dplyr)
-row.names(STR_alelos_slash) <- STR_alelos_slash$ID #cambia la columna de id
-STR_alelos_slash[1] <- NULL
-
-# convertir data frame a objeto de clase "genind"
-
-library(adegenet)
-STR_genind <- df2genind(
-  STR_alelos_slash,
-  sep = "/",
-  ncode = NULL,
-  ind.names = NULL,
-  loc.names = NULL,
-  pop = NULL,
-  NA.char = "0",
-  ploidy = 2,
-  type = 'codom',
-  strata = NULL,
-  hierarchy = NULL,
-  check.ploidy = FALSE
-)
-
