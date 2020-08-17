@@ -17,7 +17,14 @@ Lenguajes: R
 - **1.SAdmin_de_datos** Administracion de base de datos de STRs. Lenguaje R versión 3.5.3
 La base de datos "mi_final" es la base de datos unificada entre strs antes y después del 2018.
 Los datos originalmente marcados como -9, OL o con casillas en blanco fueron catalogados como NA
+- **STR_ceros.csv** Matriz de datos usado con el script Formatos.R 
 - **Formatos.R** Cambios de formato en R para creación de Genepop y Genedist.
+- **NJ_FST_POP** Árbol de comunidades por Neighbor-joining, con matriz de distancia FST (Latter,1972), con el software POPULATIONS 1.2.32.
+- **NJ_GOLD_POP** Árbol de comunidades por Neighbor-joining, con matriz de distancia GOLDSTEIN et al (1995a) dmu2, con el software POPULATIONS 1.2.32.
+- **NJ_NEI_STR** Árbol de comunidades por Neighbor-joining, con matriz de distancia Nei's standard genetic distanc Ds (Nei et al , 1972) , con el software POPULATIONS 1.2.32.
+- **UPGMA_FST_POP**Árbol de comunidades por UPGMA, con matriz de distancia FST (Latter,1972), con el software POPULATIONS 1.2.32.
+- **UPGMA_GOLD_POP** Árbol de comunidades por UPGMA, con matriz de distancia GOLDSTEIN et al (1995a) dmu2, con el software POPULATIONS 1.2.32.
+- **UPGMA_NEI_STR** Árbol de comunidades por UPGMA, con matriz de distancia Nei's standard genetic distanc Ds (Nei et al , 1972) , con el software POPULATIONS 1.2.32.
 
 
 
